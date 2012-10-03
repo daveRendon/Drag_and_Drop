@@ -1,0 +1,56 @@
+
+body{
+    background: #fff;
+}
+p{
+    color: #0026ff;
+    text-shadow: 1px 1px 1px #333;
+    font-family: Calibri;
+}
+.percent{
+    margin-left: 15%;
+}
+h1,h2,h3{
+   text-align: center;
+   text-shadow: 2px 2px 2px #333;
+   color: #0026ff;
+}
+#holder { 
+    border: 10px dashed #ccc;
+     width: 300px; 
+     min-height: 300px;
+     margin: 20px auto;
+      
+}
+#holder.hover {
+     border: 10px dashed #0c0; 
+     
+}
+#holder img { 
+    display: block;
+    margin: 10px auto; 
+    
+}
+#holder p { 
+    margin: 10px; 
+    font-size: 14px; 
+    
+}
+progress { 
+    width: 50%; 
+    margin-left: 7%;
+}
+progress:after { 
+    content: '%'; 
+    
+}
+.fail { 
+    background: #c00; 
+    padding: 2px; 
+    color: #fff; 
+    
+}
+.hidden { 
+    display: none !important;
+    
+}
